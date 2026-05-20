@@ -1,3 +1,13 @@
 # Ignore macOS system files used to store folder metadata
 .DS_Store
 
+# Python bytecode
+__pycache__/
+*.pyc
+
+# OK autograder files
+.ok_*
+.ok_history
+.ok_storage
+.ok_disabled
+.ok_consent
